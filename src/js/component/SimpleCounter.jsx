@@ -9,7 +9,7 @@ const SimpleCounter = (props) => {
 
 	return (
 		<>
-            <h1>Simple Counter</h1>
+            <h1 className="tittle">Simple Counter</h1>
             <div className="counter-display">
                 <div className="clock-img"><i className="iconClock fa-regular fa-clock fa-beat-fade"></i></div>
                 <div className="seconds-thousands">{props.thousandsDigit}</div>
